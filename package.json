@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-smooshpack": "^0.0.56"
+    "smooshpack": "^0.0.54"
   },
   "devDependencies": {
     "react-scripts": "^3.0.1"
