@@ -13,17 +13,17 @@ const manager = new Manager(
           code: `<link rel="stylesheet" type="text/css" href="./public/style.css"><p>HAAA<a href="./index2.html">I am cool</a></p><script src="./index.js"></script>`
         },
         '/index2.html': {
-          code: `<style rel="stylesheet" href="./public/style.css"></style><p>I am cool2</p>`
+          code: `<link rel="stylesheet" type="text/css" href="./public/style.css"><p>I am cool2</p>`
         },
         '/public/style.css': {
-          code: `p {color: blue}`
+          code: `p {color: green}`
         }
       },
       entry: '/index.html',
       dependencies: {
         uuid: 'latest',
-        "@babel/core": "7.2.0",
-        "parcel-bundler": "^1.6.1"
+        "@babel/core": "7.4.5",
+        "parcel-bundler": "^1.12.3"
       },
     }
 );
