@@ -51,6 +51,7 @@ function App(props) {
                     }
                 },
                 entry: '/index.html',
+                template: "parcel",
                 dependencies: {
                     "@babel/core": "7.4.5",
                     "parcel-bundler": "^1.12.3",
