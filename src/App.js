@@ -41,13 +41,13 @@ function App(props) {
                         `,
                     },
                     '/index.html': {
-                        code: `<link rel="stylesheet" type="text/css" href="./public/style.css"><p>Here we go again just checking text and its length bla bla bla oh man it takes so long</p><a href="./index2.html">I am cool</a><script src="./index.js"></script>`
+                        code: `<link rel="stylesheet" type="text/css" href="public/style.css"><p>Here we go again just checking text and its length bla bla bla oh man it takes so long</p><a href="./index2.html">I am cool</a><script src="./index.js"></script>`
                     },
                     '/index2.html': {
-                        code: `<link rel="stylesheet" type="text/css" href="./public/style.css"><p>I am cool2</p>`
+                        code: `<link rel="stylesheet" type="text/css" href="public/style.css"><p>I am cool2</p>`
                     },
                     '/public/style.css': {
-                        code: `p {color: green}`
+                        code: `p {color: red}`
                     }
                 },
                 entry: '/index.html',
