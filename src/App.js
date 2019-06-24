@@ -35,7 +35,10 @@ function App(props) {
             {
                 files: {
                     '/index.js': {
-                        code: `console.log('lol it works')`,
+                        code: `
+                        var random = require('math-random');
+                        console.log("Random number", random());
+                        `,
                     },
                     '/index.html': {
                         code: `<link rel="stylesheet" type="text/css" href="./public/style.css"><p>Here we go again just checking text and its length bla bla bla oh man it takes so long</p><a href="./index2.html">I am cool</a><script src="./index.js"></script>`
@@ -50,7 +53,8 @@ function App(props) {
                 entry: '/index.html',
                 dependencies: {
                     "@babel/core": "7.4.5",
-                    "parcel-bundler": "^1.12.3"
+                    "parcel-bundler": "^1.12.3",
+                    "math-random": "1.0.4"
                 },
             }
         );
