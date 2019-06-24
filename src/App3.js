@@ -14,7 +14,6 @@ import {clearcss} from "./PWA Project/css/clearcss";
 import {commoncss} from "./PWA Project/css/commoncss";
 import {caroufredselcss} from "./PWA Project/css/caroufredselcss";
 
-const escapeRegExp = (text) => text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
 
 let manager;
 function NewNewApp(props) {
@@ -61,7 +60,7 @@ function NewNewApp(props) {
                 template: "parcel",
                 dependencies: {
                     "@babel/core": "7.4.5",
-                    "parcel-bundler": "^1.12.3",
+                    "parcel-bundler": "^1.12.3"
                 },
             }
         );
